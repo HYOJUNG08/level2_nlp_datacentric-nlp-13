@@ -1,3 +1,14 @@
+[ENG](#ENG)   
+[한국어](#한국어)
+
+## ENG
+# News-Title Topic Classification in Data-Centric View Project
+
+In this project, we aim to enhance the performance of sentence topic classification through data preprocessing without modifying the model.   
+We improved the dataset quality by removing stopwords, punctuations (',', '!', '$', '(', ')', '*', '%', '@'), and duplicated words. Additionally, to address data imbalance, we employed various data augmentation techniques, including Easy Data Augmentation, Back Translation with the T5 model, chatGPT, data crawling, and utilization of Open Government Data(https://www.data.go.kr/en/index.do). Furthermore, we tackled label errors by removing or relabeling data with high error probabilities. The text perturbation cleaning process involved preprocessing original articles and replacing them with modified data. We re-labeled existing data to resolve label errors using the 'bash1130/bert-base-finetuned-ynat' model, fine-tuned with the KLUE-YNAT dataset.
+
+
+## 한국어
 # level2_nlp_datacentric-nlp-13
 
 ## ✅ 목차
